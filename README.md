@@ -26,6 +26,4 @@ npm run dev
 ## Production
 Tested to work on Vercel with `adapter-node`.
 
-Tried Cloudflare pages with `adapter-cloudflare` but as of 13 July 2023, it is too much of a hassle to make mint API endpoint to work because of `@solana/web.js`'s Buffer dependency and Cloudflare pages function lack of Node libraries.
-
-A sample deployment at [https://faucet.raccoons.dev](https://faucet.raccoons.dev)
+A sample deployment at [https://faucet.arcana.markets](https://faucet.arcana.markets)

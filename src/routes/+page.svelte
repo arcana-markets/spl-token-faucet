@@ -102,7 +102,7 @@
       </label>
       <input
         type="text"
-        placeholder="JUPUftwg2cSudukhrjAV3P5uXjoDSvw3Wpw6CxA5Ndm"
+        placeholder="arcy1zra3gV3f3hKBbw5FPutFVDSED6GNYMucU83fpt"
         bind:value={recipient}
         class="input input-bordered w-full"
       />

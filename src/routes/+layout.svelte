@@ -23,7 +23,7 @@
       <div class="navbar bg-base-100">
         <div class="flex-1 flex-wrap">
           <a href="/" class="btn btn-ghost normal-case text-xl px-1 md:px-4"
-            >Raccoons Faucet<span class="hidden md:inline">&nbsp;(devnet)</span
+            >Arcana Faucet<span class="hidden md:inline">&nbsp;(devnet)</span
             ></a
           >
         </div>
@@ -50,7 +50,7 @@
 
     <footer class="mb-5">
       <div class="text-center text-xs">
-        Raccoons &copy; {new Date().getFullYear()}
+        Arcana Markets &copy; {new Date().getFullYear()}
       </div>
     </footer>
   </div>

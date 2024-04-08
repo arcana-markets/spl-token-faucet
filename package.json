@@ -29,6 +29,8 @@
     "@solana/spl-token": "^0.3.8",
     "@solana/web3.js": "^1.78.0",
     "buffer": "^6.0.3",
+    "flowbite-svelte": "^0.44.24",
+    "flowbite-svelte-icons": "^1.5.0",
     "uuid": "^9.0.0"
   }
 }
