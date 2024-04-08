@@ -26,6 +26,12 @@
             >Arcana Faucet<span class="hidden md:inline">&nbsp;(devnet)</span
             ></a
           >
+          <div>
+          <a href="https://app.arcana.markets" class="btn btn-ghost normal-case text-xl px-1 md:px-4"
+          >Go back<span class="hidden md:inline"></span
+          ></a
+        >
+        </div>
         </div>
         {#if balance}
           <div class="flex-none">
