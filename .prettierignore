@@ -1,8 +1,9 @@
 
+.coderrect
 .anchor
 .DS_Store
-dist
 target
-**/*.rs.bk
 node_modules
+dist
+build
 test-ledger
