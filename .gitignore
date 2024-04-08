@@ -1,8 +1,11 @@
-
-.anchor
 .DS_Store
-dist
-target
-**/*.rs.bk
 node_modules
-test-ledger
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.wrangler

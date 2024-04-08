@@ -1,32 +1,34 @@
 {
-  "name": "@stabbleorg/spl-faucet",
-  "version": "0.3.0",
-  "license": "MIT",
-  "main": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
-  "files": [
-    "dist",
-    "src",
-    "README.md"
-  ],
+  "name": "devnet-spl-faucet",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "yarn clean && tsc",
-    "lint:ts": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-    "lint:rs": "rustfmt programs/**/src/lib.rs",
-    "lint": "yarn lint:ts && yarn lint:rs"
-  },
-  "dependencies": {
-    "@coral-xyz/anchor": "^0.29.0",
-    "@solana/spl-token": "^0.3.9",
-    "@solana/web3.js": "^1.87.6",
-    "bn.js": "^5.2.1"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "devDependencies": {
-    "@types/bn.js": "^5.1.5",
-    "@types/node": "^20.10.0",
-    "prettier": "^3.1.0",
-    "rustfmt": "^0.1.0",
-    "typescript": "^5.3.0"
+    "@sveltejs/adapter-auto": "^2.1.0",
+    "@sveltejs/kit": "^1.20.4",
+    "@types/uuid": "^9.0.2",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.2.1",
+    "postcss": "^8.4.25",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.3",
+    "tailwindcss": "^3.3.2",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2",
+    "wrangler": "^3.2.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.78.0",
+    "buffer": "^6.0.3",
+    "uuid": "^9.0.0"
   }
 }
