@@ -17,10 +17,10 @@
 </script>
 
 <div class="safe-top safe-left safe-right safe-bottom">
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col min-h-screen bg-custom">
     <Toast />
     <header>
-      <div class="navbar bg-base-100">
+      <div class="navbar">
         <div class="flex-1 flex-wrap">
           <a href="/" class="btn btn-ghost normal-case text-xl px-1 md:px-4"
             >Arcana Faucet<span class="hidden md:inline">&nbsp;(devnet)</span

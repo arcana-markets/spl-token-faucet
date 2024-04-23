@@ -121,7 +121,7 @@
     </div>
 
     <div class="form-control w-full mt-5 md:mt-8">
-      <button class="btn btn-primary w-full">
+      <button class="btn btn-custom btn-custom:hover w-full">
         Mint
         {#if loading}
           <span class="loading loading-infinity loading-md" />
